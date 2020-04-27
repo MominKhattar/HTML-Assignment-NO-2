@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Assignmen No 02</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div align="center">
+        <img src="Assets/Saylani-logo.png" height="100px">
+        <a href="index.html">
+            <h2>STUDENT REGISTRATION FORM</h2>
+        </a>
+    </div>
+    <form action="second_page.html">
+        <table>
+            <tr>
+                <td>
+                    <p>FIRST NAME</p>
+                </td>
+                <td><input type="text" name="fname" required maxlength="30" placeholder="Enter first name">
+                    <sub>(max 30 characters a-z and A-Z)</sub></td>
+            </tr>
+            <tr>
+                <td>
+                    <p></p>LAST NAME</p>
+                </td>
+                <td><input type="text" name="lname" required maxlength="30" placeholder="Enter last name">
+                    <sub>(max 30 characters a-z and A-Z)</sub></td>
+            </tr>
+            <tr>
+                <td>DATE OF BIRTH</td>
+                <td><input type="date" required name="date"></td>
+            </tr>
+            <tr>
+                <td>
+                    <p>EMAIL ID</p>
+                </td>
+                <td><input type="email" name="email" required></td>
+            </tr>
+            <tr>
+                <td>
+                    <p>MOBILE NUMBER</p>
+                </td>
+                <td><input type="text" maxlength="10" required>
+                    <sub>(10 digit number)</sub></td>
+            </tr>
+            <tr>
+                <td>
+                    <p>Gender</p>
+                </td>
+                <td>
+                    <p>Male<input type="radio" required name="gender">
+                        Female<input type="radio" required name="gender"></p>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <p>ADDRESS</p>
+                </td>
+                <td><textarea cols="30" required rows="4"></textarea> </td>
+            </tr>
+            <tr>
+                <td>
+                    <p>CITY</p>
+                </td>
+                <td><input type="text" placeholder="Enter city name" required maxlength="30">
+                    <sub>(max 30 characters a-z and A-Z)</sub></td>
+            </tr>
+            <tr>
+                <td>
+                    <p>PIN CODE</p>
+                </td>
+                <td><input type="text" placeholder="Enter pincode" required maxlength="6">
+                    <sub>(6 digit number)</sub></td>
+            </tr>
+            <tr>
+                <td>
+                    <p>STATE</p>
+                </td>
+                <td><input type="text" placeholder="Enter state">
+                    <sub>(max 30 characters a-z and A-Z)</sub></td>
+            </tr>
+            <tr>
+                <td>
+                    <p>COUNTRY</p>
+                </td>
+                <td><input type="text" required placeholder="Enter country"></td>
+            </tr>
+            <tr>
+                <td>
+                    <p>HOBBIES</p>
+                </td>
+                <td>
+                    <p>Drawing <input type="checkbox">
+                        Singing <input type="checkbox">
+                        Dancing <input type="checkbox">
+                        Sketching <input type="checkbox"></p>
+                </td>
+            <tr>
+                <td colspan="1"></td>
+                <td>Others <input type="checkbox"><input type="text"> </td>
+            </tr>
+            </tr>
+            <table>
+                <tr>
+
+                    <td>
+                        <p>QUALIFICATION &nbsp&nbsp&nbsp</p>
+                    </td>
+                    <td align="center">
+                        <p>St.No. Examination</p>
+                    </td>
+                    <td>
+                        <p align="center">Board</p>
+                    </td>
+                    <td>
+                        <p align="center">Percentage</p>
+                    </td>
+                    <td>
+                        <p align="center">Year of Passing</p>
+                    </td>
+                <tr>
+                    <td colspan="1"></td>
+                    <td>
+                        <p><span style="margin-right: 10%;">1</span>Class X</p>
+                    </td>
+                    <td><input type="text" maxlength="10" required> </td>
+                    <td><input type="text" required maxlength="2"></td>
+                    <td><input type="text" required></td>
+                </tr>
+                <tr>
+                    <td colspan="1"></td>
+                    <td>
+                        <p><span style="margin-right: 10%;">2</span>Class XII</p>
+                    </td>
+                    <td><input type="text" required maxlength="10"> </td>
+                    <td><input type="text" required maxlength="2"></td>
+                    <td><input type="text" required></td>
+                </tr>
+                <tr>
+                    <td colspan="1"></td>
+                    <td>
+                        <p><span style="margin-right: 10%;">3</span>Graduation</p>
+                    </td>
+                    <td><input type="text" required maxlength="10"> </td>
+                    <td><input type="text" required maxlength="2"></td>
+                    <td><input type="text" required></td>
+                </tr>
+                <tr>
+                    <td colspan="1"></td>
+                    <td>
+                        <p><span style="margin-right: 10%;">4</span>Masters</p>
+                    <td><input type="text" required maxlength="10"></td>
+                    <td><input type="text" required maxlength="2"></td>
+                    <td><input type="text" required></td>
+                </tr>
+                <tr>
+                    <td colspan="2"></td>
+                    <td align="center">
+                        <p>(10 char max)</p>
+                    </td>
+                    <td align="center">
+                        <p>(upto 2 decimal)</p>
+                    </td>
+                </tr>
+                </tr>
+            </table>
+            <table>
+                <tr>
+                    <td>
+                        <p style="padding-right: 10%;">COURSES APPLED FOR</p>
+                    </td>
+                    <td>
+                        <p>BCA <input type="radio" name="course">
+                            B.Com <input type="radio" name="course">
+                            B.Sc <input type="radio" name="course">
+                            B.A <input type="radio" name="course"></p>
+                    </td>
+                </tr>
+
+                <tr align="right">
+                    <td colspan="1"></td>
+                    <td><button type="submit">Submit</button>
+                        <button type="reset">Reset</button></td>
+                </tr>
+            </table>
+
+        </table>
+    </form>
+
+</body>
+
+</html>
